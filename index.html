@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Freewind主题使用手册</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+    <style>
+      .fwbtn i.fa {
+        display: inline-block;
+        padding: 10px;
+        margin-right: 10px;
+      }
+      .fwbtn.fwbtn-error i.fa {
+        background-color: #b93d2f;
+      }
+      .fwbtn {
+        color: #fff !important;
+        display: inline-block;
+        padding-right: 20px;
+        text-decoration: none;
+        transition: all 0.3s;
+      }
+      .fwbtn.fwbtn-error {
+        background-color: #e74c3b;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "Freewind主题使用手册",
+        repo: "https://github.com/freewind98",
+        coverpage: true,
+        loadSidebar: true,
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  </body>
+</html>
